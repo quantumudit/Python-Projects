@@ -48,6 +48,6 @@ connection and social links for any issue resolution and donations link.
 
 ## License
 
-<a href = 'https://creativecommons.org/licenses/by-nc-sa/4.0/' targe = _blank >
+<a href = 'https://creativecommons.org/licenses/by-nc-sa/4.0/' target = _blank >
     <img src='Images/by-nc-sa.png' width=88 height=31>
 </a>
