@@ -48,6 +48,7 @@ connection and social links for any issue resolution and donations link.
 
 ## License
 
-<a href = 'https://creativecommons.org/licenses/by-nc-sa/4.0/' target = _blank >
+<a href = 'https://creativecommons.org/licenses/by-nc-sa/4.0/' target="_blank">
     <img src='Images/by-nc-sa.png' width=88 height=31>
 </a>
+This license allows reusers to distribute, remix, adapt, and build upon the material in any medium or format for noncommercial purposes only, and only so long as attribution is given to the creator. If you remix, adapt, or build upon the material, you must license the modified material under identical terms.
