@@ -16,43 +16,35 @@
   <a href="#download">Download</a> •
   <a href="#installation">Installation</a> •
   <a href="#settings">Settings</a> •
-  <a href="#folder-structure">Folder Structure</a> •
-  <a href="#acknowledgements">Acknowledgements</a> •
-  <a href="#roadmap">Roadmap</a> •
   <a href="#support">Support</a> •
   <a href="#license">License</a>
 </p>
 
 ## Basic Overview
 
-What did you learn while building this project? What challenges did you face and how did you overcome them?
+contains folder structure and key notes on the repository
 
 ## Prerequisites
 
-Install my-project with npm
-
-```bash
-  npm install my-project
-  cd my-project
-```
+installation and skills required to follow along with the projects
 
 ## Download
 
-- Additional browser support
-
-- Add more integrations
+Downloading anaconda distribution, visual studio code and kite
 
 ## Installation
 
-For support, email quantumudit@gmail.com or connect with me on LinkedIn.
+Installation of the downloaded softwares
 
 ## Settings
 
-## Folder Structure
-
-## Acknowledgements
+setting up virtual environments.
+utilizing requirements.txt files
+other settings and bug fixes (stackoverflow and other links)
 
 ## Support
+
+connection and social links for any issue resolution and donations link.
 
 ## License
 
