@@ -2,6 +2,7 @@ name: india-cov19-statewide-current-status-update
 
 on:
   schedule:
+    workflow-dispatch
     - cron: "0 5 * * *" # runs at 5:00 AM UTC everyday (10.30 AM IST)
     - cron: "0 16 * * *" # runs at 4:00 PM UTC everyday (9.30 PM IST)
 
