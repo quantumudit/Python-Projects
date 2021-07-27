@@ -1,6 +1,8 @@
 name: india-cov19-statewide-current-status-update
 
 on:
+  push:
+    branches: [master]
   schedule:
     workflow-dispatch
     - cron: "0 5 * * *" # runs at 5:00 AM UTC everyday (10.30 AM IST)
@@ -25,14 +27,14 @@ on:
       - name: execute py script # run python script to get the latest data
         run: python India_COV19_current_status_script.py
 
-      - name: commit files
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add -A
-          git commit -m "update data" -a
-      - name: push changes
-        uses: ad-m/github-push-action@v0.6.0
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
+      # - name: commit files
+      #   run: |
+      #     git config --local user.email "action@github.com"
+      #     git config --local user.name "GitHub Action"
+      #     git add -A
+      #     git commit -m "update data" -a
+      # - name: push changes
+      #   uses: ad-m/github-push-action@v0.6.0
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     branch: main
