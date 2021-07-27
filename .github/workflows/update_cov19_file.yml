@@ -18,13 +18,11 @@ jobs:
           python-version: "3.x" # install the python version needed
 
       - name: install python packages
-        cwd: "../../02_Data_Analysis/01_India_COVID-19_Current_Status_Analysis"
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
       - name: execute py script # run python script to get the latest data
-        cwd: "../../02_Data_Analysis/01_India_COVID-19_Current_Status_Analysis/01_DATA/01_ETL"
         run: python India_COV19_current_status_script.py
 
       - name: commit files
