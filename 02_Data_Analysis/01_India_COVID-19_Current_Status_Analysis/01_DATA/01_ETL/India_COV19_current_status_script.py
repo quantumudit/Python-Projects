@@ -54,7 +54,7 @@ rd3 = rd2.set_index('SNo.')
 current_datetime = datetime.datetime.now()
 formatted_datetime = current_datetime.strftime('%d/%m/%Y %H:%M:%S')
 
-rd3['Last Updated'] = formatted_datetime
+rd3['Last Updated (UTC)'] = formatted_datetime
 
 cd = rd3.sort_index()
 
