@@ -19,16 +19,17 @@ jobs:
 
       - name: install python packages
         run: |
+          pwd
           python -m pip install --upgrade pip
           pwd
           cd 02_Data_Analysis/01_India_COVID-19_Current_Status_Analysis/
           pwd
           pip install -r requirements.txt
-          cd 01_DATA/01_ETL/
-          pwd
 
       - name: execute py script # run python script to get the latest data
         run: |
+          pwd
+          cd 02_Data_Analysis/01_India_COVID-19_Current_Status_Analysis/01_DATA/01_ETL/
           pwd
           python India_COV19_current_status_script.py
 
