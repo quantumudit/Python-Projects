@@ -28,7 +28,9 @@ jobs:
           pwd
 
       - name: execute py script # run python script to get the latest data
-        run: python India_COV19_current_status_script.py
+        run: |
+          pwd
+          python India_COV19_current_status_script.py
 
       - name: commit files
         run: |
