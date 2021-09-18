@@ -25,7 +25,7 @@ jobs:
 
       - name: execute py script # run python script to get the latest data
         run: |
-          cd 02_Data_Analysis/01_India_COVID-19_Current_Status_Analysis/01_DATA/01_ETL/
+          cd 02_Data_Analysis/01_India_COVID-19_Current_Status_Analysis/01_ETL/
           python India_COV19_current_status_script.py
 
       - name: commit files

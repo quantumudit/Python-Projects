@@ -60,6 +60,6 @@ cd = rd3.sort_index()
 
 # Dumping data into a csv file:
 
-cd.to_csv('../02_FLATFILE/India_COV19_Current_Status.csv', index=True)
+cd.to_csv('../02_DATA/India_COV19_Current_Status.csv', index=True)
 
 # ------ End of Program ----- #
